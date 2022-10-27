@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_DB: nbddb
       POSTGRES_USER: nbd
-      POSTGRES_PASSWORD: nbd
+      POSTGRES_PASSWORD: nbdpassword
     ports:
       - 5001:5432
     volumes:
